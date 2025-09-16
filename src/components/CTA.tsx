@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { ArrowRight, Phone, MessageSquare } from "lucide-react";
 
 export function CTA() {

@@ -1,6 +1,6 @@
 import { Card, CardContent } from "./ui/card";
 import { Badge } from "./ui/badge";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { Star, Quote } from "lucide-react";
 
 const testimonials = [

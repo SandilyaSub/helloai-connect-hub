@@ -1,4 +1,4 @@
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { Separator } from "./ui/separator";
 import { Button } from "./ui/button";
 import { Mail, Twitter, Linkedin, Github } from "lucide-react";

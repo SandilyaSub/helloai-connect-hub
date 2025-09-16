@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "./ui/button";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { Play, Phone, MessageSquare, Sparkles } from "lucide-react";
 
 export function CinematicHero() {
@@ -24,7 +24,7 @@ export function CinematicHero() {
   }, [isCallActive, messages.length]);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-blue-50 via-white to-purple-50 pt-20">
+    <section id="experience" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-blue-50 via-white to-purple-50 pt-20">
       {/* Floating Elements */}
       <div className="absolute inset-0 pointer-events-none">
         {[...Array(20)].map((_, i) => (

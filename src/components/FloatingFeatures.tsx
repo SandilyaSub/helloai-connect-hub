@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Card, CardContent } from "./ui/card";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { 
   Zap, 
   Globe, 

@@ -4,7 +4,7 @@
   import path from 'path';
   import { componentTagger } from "lovable-tagger";
   import autoprefixer from 'autoprefixer';
-  import tailwindcss from '@tailwindcss/postcss';
+  import tailwindcss from 'tailwindcss';
 
   export default defineConfig(({ mode }) => ({
     plugins: [
@@ -53,6 +53,11 @@
         '@radix-ui/react-alert-dialog@1.1.6': '@radix-ui/react-alert-dialog',
         '@radix-ui/react-accordion@1.2.3': '@radix-ui/react-accordion',
         '@': path.resolve(__dirname, './src'),
+      },
+    },
+    css: {
+      postcss: {
+        plugins: [tailwindcss(), autoprefixer()],
       },
     },
     build: {

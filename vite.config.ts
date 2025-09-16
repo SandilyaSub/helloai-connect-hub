@@ -56,9 +56,7 @@
       },
     },
     css: {
-      postcss: {
-        plugins: [tailwindcss(), autoprefixer()],
-      },
+      postcss: path.resolve(__dirname, 'postcss.lovable.cjs'),
     },
     build: {
       target: 'esnext',

@@ -1,6 +1,5 @@
 import { RadicalHeader } from "./components/RadicalHeader";
 import { CinematicHero } from "./components/CinematicHero";
-import { InteractiveDemo } from "./components/InteractiveDemo";
 import { FloatingFeatures } from "./components/FloatingFeatures";
 import { ImmersiveCTA } from "./components/ImmersiveCTA";
 import { RadicalFooter } from "./components/RadicalFooter";
@@ -11,7 +10,6 @@ export default function App() {
       <RadicalHeader />
       <main className="relative z-10">
         <CinematicHero />
-        <InteractiveDemo />
         <FloatingFeatures />
         <ImmersiveCTA />
       </main>

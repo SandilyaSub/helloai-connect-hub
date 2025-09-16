@@ -55,11 +55,6 @@
         '@': path.resolve(__dirname, './src'),
       },
     },
-    css: {
-      postcss: {
-        plugins: [tailwindcss(), autoprefixer()],
-      },
-    },
     build: {
       target: 'esnext',
       outDir: 'build',

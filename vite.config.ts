@@ -54,6 +54,7 @@
         '@radix-ui/react-accordion@1.2.3': '@radix-ui/react-accordion',
         '@': path.resolve(__dirname, './src'),
       },
+      dedupe: ['react', 'react-dom']
     },
     css: {
       postcss: path.resolve(__dirname, 'postcss.lovable.cjs'),

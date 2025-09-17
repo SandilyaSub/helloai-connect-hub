@@ -52,10 +52,6 @@
         '@radix-ui/react-aspect-ratio@1.1.2': '@radix-ui/react-aspect-ratio',
         '@radix-ui/react-alert-dialog@1.1.6': '@radix-ui/react-alert-dialog',
         '@radix-ui/react-accordion@1.2.3': '@radix-ui/react-accordion',
-'react': path.resolve(__dirname, 'node_modules/react'),
-'react/jsx-runtime': path.resolve(__dirname, 'node_modules/react/jsx-runtime.js'),
-'react-dom': path.resolve(__dirname, 'node_modules/react-dom'),
-'react-dom/client': path.resolve(__dirname, 'node_modules/react-dom/client'),
 '@': path.resolve(__dirname, './src'),
       },
       dedupe: ['react', 'react-dom']
